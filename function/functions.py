@@ -1,9 +1,9 @@
 ## 1 basic function definition, empty function
 
-# def hello_func():
-#     pass
-#
-# print(hello_func())
+# def hello_func(x):
+#     return(x)
+
+# print(hello_func(21))
 
 ## 2 function defenition
 # def hello_func():
@@ -33,15 +33,15 @@
 #####
 
 # Function with args and kwargs
-# def student_info(*args, **kwargs):
-#     print(args)
-#     print(kwargs)
+def student_info(*args, **kwargs):
+    print(args[0])
+    print(kwargs["name"])
 # #
 # student_info('Math', 'Art', name='Jhon', age=22)
 # print ("---")
-# courses = ['Math', 'Art']
-# info = {'name':'Jhon', 'age':22}
+courses = ['Math', 'Art']
+info = {'name':'Jhon', 'age':22}
 
 # student_info(courses, info)
 # print ("---")
-# student_info(*courses, **info)
+student_info(*courses, **info)

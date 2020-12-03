@@ -2,7 +2,7 @@
 # https://docs.python.org/3/library/stdtypes.html#lists
 
 # 1 print list, len, access
-# courses = ['History', 'Math', 'Physics', 'CompSci']
+courses = ['History', 'Math', 'Physics', 'CompSci']
 # print(courses)
 # print(len(courses))
 # print(courses[0])
@@ -33,12 +33,12 @@
 # courses.remove("History")
 # print(courses)
 #
-# pop_value = courses.pop()
-# print(courses)
-# print(pop_value)
-# pop_value = courses.pop(0)
-# print(pop_value)
-# print(courses)
+pop_value = courses.pop()
+print(courses)
+print(pop_value)
+pop_value = courses.pop(0)
+print(pop_value)
+print(courses)
 
 # 5 list reverse, sort
 # courses = ['History', 'Math', 'Physics', 'CompSci']
