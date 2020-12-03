@@ -34,6 +34,7 @@
 
 # Function with args and kwargs
 def student_info(*args, **kwargs):
+<<<<<<< HEAD
     print(args[0])
     print(kwargs["name"])
 # #
@@ -44,4 +45,16 @@ info = {'name':'Jhon', 'age':22}
 
 # student_info(courses, info)
 # print ("---")
+=======
+    print(args)
+    print(kwargs)
+#
+student_info('Math', 'Art', name='Jhon', age=22)
+print ("---")
+courses = ['Math', 'Art']
+info = {'name':'Jhon', 'age':22}
+
+student_info(courses, info)
+print ("---")
+>>>>>>> 855897c18b858437f0f64ea37cd2c096b7b72544
 student_info(*courses, **info)
